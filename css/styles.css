@@ -7,6 +7,8 @@ body {
 
 /*Need to set line-height:1.5; for all h1-6 tags used, as the default is 1.2 overridign the body tag. */
 /*I set font-size and font-weight where appropriate to override the defauts for Montserrat.*/
+/*Font weights for Montserrat: 100, 400, 700, 800, 900.*/
+/*Font weights for Ubuntu: 300, 400, 700.*/
 
 h1 {
   font-weight: 900;
@@ -26,7 +28,7 @@ h3 {
 
 p { /*No need to set line-height here, as there is currently no default for p. */
   color: #8f8f8f;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /**************ID and CLASS SELECTORS**********/
@@ -63,7 +65,7 @@ p { /*No need to set line-height here, as there is currently no default for p. *
 
 .nav-link {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 /* Download Buttons */
